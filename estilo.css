@@ -2,8 +2,96 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
     background-image: url('imagens/fundo.png');
+}
+
+header > div > img {
+    padding: 10px 5px 0px 5px;
+    width: 80%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+menu {
+    background-color: rgba(131, 83, 21, 0.549);
+    margin: 15px 10px 0px 10px;
+    padding: 20px;
+    box-shadow: inset 8px 8px 16px rgba(131, 83, 21, 0.237);
+    border-radius: 20px 0px 0px 0px;
+}
+
+menu > a {
+    color: rgb(54, 36, 11);
+    text-decoration: none;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px 15px 20px 15px;
+}
+
+a:hover {
+    transition-duration: 1.5s;
+    background-color: rgba(88, 63, 28, 0.204);
+    color: rgb(211, 154, 79);
+    font-weight: 450;
+    border-radius: 20px 0px;
+}
+
+a:visited {
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    margin: 0px 10px 0px 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 0px 0px 20px 0px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.144);
+}
+
+section > img {
+    border: 5px solid rgba(128, 128, 128, 0.459);
+    margin: 10px;
+    width: 65%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h2 {
+    padding: 5px 10px 10px 5px;
+    color: rgba(131, 83, 21, 0.549);
+    font-weight: bold;
+}
+
+section > p {
+    text-align: justify;
+    padding: 5px;
+}
+
+footer {
+    margin: 10px 5px 5px 5px;
+    text-align: center;
+}
+
+h3 {
+    padding: 5px;
+}
+
+footer > p {
+    text-align: right;
+    padding: 5px;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: rgb(54, 36, 11);
+    font-weight: bolder;
+    text-decoration: underline;
 }
